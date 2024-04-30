@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #0B2559;
+    --cor2: #13678A;
+
+}
+
+
+
+body {
+    margin: 0px;
+}
+
+
+header {
+    background-image: linear-gradient(to right, #0B2559, #0099DD);
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 35px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header > nav {
+    text-align: center;
+}
+
+nav > ul > li{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: " ";
+    width: 0px;
+    height: 3px;
+    background-image: linear-gradient(45deg,#F24405, #FA7F08);
+    position: absolute;
+    top:25px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 40px;
+}
+
+h1 {
+    font-family:  "Bebas Neue", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+}
+
+.ps{
+    max-width: 1000px;
+    min-width: 320px;
+    padding-bottom: 5px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgba(139, 173, 184, 0.178);
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 18px;
+}
+
+p{
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.italic{
+    font-style: italic;
+}
+
+td{
+    border: 1px solid black;
+    line-height: 20px;
+}
+
+th {
+    border: 1px solid black;
+    background-color: #0B2559;
+    color: white;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.laranja{
+    background-color: #FA7F08;
+}
+
+.roxo{
+    background-color: blueviolet;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.margem{
+    margin-right: 100px;
+}
+
+table{
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+}
+
+p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.caixa {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#feijao label {
+    display: flex;
+    margin-bottom: 20px;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+
+}
+
+#feijao input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino prova</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="java.js">
+</head>
+<body>
+    <div>
+        <h1>Treino para prova</h1>
+        <p>De acordo com a tabela a seguir, preencha suas notas no campo vazio e veja sua situação final.</p>
+        <p>obs: as provas valem 10 cada e tem PESO 2
+            <br>
+            o trabalho vale 9 e tem PESO 3
+            <br>
+            as tarefas valem 4 e tem PESO 2
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Media</th>
+                    <th>Sitação Final</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Media entre 6 e 10</td>
+                    <td id="aprovado">Aprovado</td>
+                </tr>
+                <tr>
+                    <td>Media entre 0 e 5.9</td>
+                    <td id="recuperacao">Recuperação</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <div class="noborder">
+                <label>Nome:</label>
+                <input id="nome"
+                       type="text"
+                       placeholder="Nome completo"
+                       required>
+            </div>
+            <div class="noborder">
+                <label>Provas:</label>
+                <input id="nota1"
+                       type="text"
+                       placeholder="prova1"
+                       required
+                >
+            </div>
+            <div class="noborder">
+                <label>Provas:</label>
+                <input id="nota2"
+                       type="text"
+                       placeholder="prova2"
+                       required
+                >
+            </div>
+            <div class="noborder">
+                <label>Trabalho:</label>
+                <input id="trabalho"
+                       type="text"
+                       placeholder="trabalho"
+                       required
+                >
+            </div>
+            <div class="noborder">
+                <label>Tarefas:</label>
+                <input id="tarefa"
+                       type="text"
+                       placeholder="nota de tarefa"
+                       required
+                >
+            </div>
+            <div class="noborder">
+                <button id="confirmar" type="button">
+                    Confirmar
+                </button>
+            </div>
+            <div>
+                <p id="resultado">
+
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
