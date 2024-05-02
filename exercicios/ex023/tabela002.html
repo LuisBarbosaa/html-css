@@ -13,6 +13,17 @@
             border-collapse: collapse;
         }
 
+        caption{
+            padding: 10px;
+            background-color: rgb(112, 112, 112);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
         td, th{
             border: 1px solid black;
             padding: 10px;
@@ -38,6 +49,9 @@
                 tr, td, th
     -->
     <table>
+        <caption>
+            População De estados especificos
+        </caption>
         <thead>
             <tr>
                 <th scope="col">Estado</th>
@@ -57,11 +71,23 @@
                 <td>Rio de janeiro</td>
                 <td>17.264.943</td>
             </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>15.678.097</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>27.987.256</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td>30.456.345</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de habitantes</th>
-                <td>0000</td>
+                <td><strong>158.474.48</strong>1</td>
             </tr>
         </tfoot>
     </table>
